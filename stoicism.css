@@ -1,0 +1,22 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Arial";
+    text-align: center;
+    color: #222;
+    background: #f7f5f0;
+}
+
+.main-image {
+      border: solid 6px black;
+      border-radius: 10%;
+}
+
+h1 {
+    background-color: #e2e2e2;
+    padding: 5px;
+}
+
+.section-title {
+  text-transform: capitalize;
+}
