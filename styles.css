@@ -3,11 +3,11 @@
   box-sizing: border-box;
 }
   
-body {
+body.index{
   margin: 0;
   padding: 0;
   text-align: center;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #222;
   background: #f7f5f0;
 }
@@ -23,7 +23,7 @@ a:hover {
 
 /* Section Styles */
 
-.main-nav {
+.first-page {
   width: 100%;
   background: black;
   min-height: 30px;
@@ -67,14 +67,14 @@ header {
 }
 header .profile-image {
   margin-top: 50px;
-  width: 150px;
-  height: 150px;
+  width: 130px;
+  height: 130px;
   border-radius: 50%;
   border: 3px solid rgb(0, 0, 0);
   transition: all .5s;
 }
 header .profile-image:hover {
-  transform: scale(1.5) rotate(360deg);
+  transform: scale(1.4) rotate(360deg);
   border-radius: 2px;
 }
 .tag {
@@ -89,7 +89,7 @@ header .profile-image:hover {
   background-color: #222;
   color: white;
 }
-.card {
+.section-one {
   margin: 30px;
   padding: 20px 40px 40px;
   max-width: 500px;
@@ -99,8 +99,8 @@ header .profile-image:hover {
   border-radius: 6px;
   transition: all .5s;
 }
-.card:hover {
-  border-color: #ff99ff;
+.section-one:hover {
+  border-color: #1405f0;
 }
 
 ul.skills {
@@ -205,4 +205,58 @@ a.social:hover {
   }
 
 }
+body.resume {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  color: #222;
+  background: #f7f5f0;
+}
+
+.second-page {
+  width: 100%;
+  background: black;
+  min-height: 30px;
+  padding: 10px;
+  position: fixed;
+  text-align: center;
+}
+
+h1 {
+  background-color: #e2e2e2;
+  padding: 5px;
+}
+
+.section-title {
+text-transform: capitalize;
+}
+
+body.stoicism {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  color: #222;
+  background: #f7f5f0;
+}
+
+.third-page {
+  width: 100%;
+  background: black;
+  min-height: 30px;
+  padding: 10px;
+  position: fixed;
+  text-align: center;
+}
+
+h1 {
+  background-color: #e2e2e2;
+  padding: 5px;
+}
+
+.section-title {
+text-transform: capitalize;
+}
+
 
