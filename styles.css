@@ -274,7 +274,7 @@ body.stoicism {
   width: 100%;
   background: black;
   min-height: 20px;
-  padding: 1px;
+  padding: 10px;
   position: fixed;
   text-align: center;
 }
