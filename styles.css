@@ -301,3 +301,7 @@ h1 {
 .section-title {
 text-transform: capitalize;
 }
+.section-two,
+.section-three {
+  margin: 30px auto
+}
