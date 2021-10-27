@@ -87,14 +87,14 @@ header .profile-image:hover {
 } 
 .location {
   background-color: #222;
-  color: white;
+  color: rgb(255, 255, 255);
 }
 .section-one {
   margin: 30px;
   padding: 20px 40px 40px;
   max-width: 500px;
   text-align: left;
-  background: #fff;
+  background: rgb(255, 255, 255);
   border-bottom: 4px solid #ccc;
   border-radius: 6px;
   transition: all .5s;
@@ -217,9 +217,38 @@ body.resume {
 .second-page {
   width: 100%;
   background: black;
-  min-height: 30px;
-  padding: 10px;
+  min-height: 20px;
+  padding: 3px;
   position: fixed;
+  text-align: left;
+}
+header .gaming-image {
+  text-align: center;
+  background: url('images/gaming.jpg') no-repeat top center ;
+  background-size: contain;
+  overflow: hidden;
+  padding-top: 200px;
+}
+header {
+  line-height: 1.5;
+}
+.section-two {
+  margin: 10px;
+  padding: 20px 40px 40px;
+  max-width: 500px;
+  text-align: left;
+  background: #fff;
+  border-bottom: 4px solid #ccc;
+  border-radius: 6px;
+  transition: all .5s;
+}
+.section-two:hover {
+  border-color: #09ff00;
+}
+
+
+ul.skills {
+  padding: 0;
   text-align: center;
 }
 
@@ -244,10 +273,30 @@ body.stoicism {
 .third-page {
   width: 100%;
   background: black;
-  min-height: 30px;
-  padding: 10px;
+  min-height: 20px;
+  padding: 1px;
   position: fixed;
   text-align: center;
+}
+header .stoic-image {
+  text-align: center;
+  background: url('images/Stoic+Marcus2.jpg') no-repeat top center ;
+  background-size: contain;
+  overflow: hidden;
+  padding-top: 200px;
+}
+.section-three {
+  margin: 30px;
+  padding: 20px 40px 40px;
+  max-width: 500px;
+  text-align: left;
+  background: #fff;
+  border-bottom: 4px solid #ccc;
+  border-radius: 6px;
+  transition: all .5s;
+}
+.section-three:hover {
+  border-color: #ff0000;
 }
 
 h1 {
@@ -258,5 +307,3 @@ h1 {
 .section-title {
 text-transform: capitalize;
 }
-
-
